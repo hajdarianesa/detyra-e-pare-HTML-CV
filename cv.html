@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        /*
+        h1 {
+            text-align: center;
+        }
+        
+        #photo {
+            float: left;
+        }
+        
+        #container {
+            width: 348px;
+            display: inline-block;
+            height: 300px;
+        }
+        */
+    </style>
+
+</head>
+
+<body>
+
+    <h1>CV Anesa Hajdari</h1>
+
+
+    <h3>PERSONAL INFORMATION</h3>
+    <hr>
+
+    <div id="photo">
+        <figure>
+            <img src="assets/images/logo2.jpg" alt="my_photo" width="200" title="Anesa">
+            <figcaption>My photo. </figcaption>
+        </figure>
+    </div>
+
+
+
+
+    <div id="container">
+        <p><img src="assets/images/name_surname.png" alt="name_surname" width="24" title="Name_Surname"> <b>Name:</b> Anesa Hajdari</p>
+
+        <p><img src="assets/images/date_of_birth.png" alt="date" width="24" title="Date_of_Birth"> <b>Date of Birth:</b> 14/07/2001</p>
+
+        <p><img src="assets/images//gmail.png" alt="gmail" title="Gmail"> <b>Gmail: </b> anesahajdari7@gmail.com</p>
+
+
+        <address> <img src="assets/images/home_address.png" alt="address" width="24" title="Address"> 
+            <b>Vtora Makedonska Brigada</b>
+            <br>
+            1000 Skopje, North Macedonia
+        </address>
+
+
+        <p> <img src="assets/images/instagram.png" alt="instagram" width="24" title="Instagram"> <b>My instagram account:</b> <a href="https://www.instagram.com/anesahajdarii/" target="_blank">Instagram</a></p>
+
+        <p> <img src="assets/images/facebook.jfif" alt="facebook" width="24" title="Facebook"> <b>My facebook account: </b> <a href="https://www.facebook.com/anesa2012" target="_blank">Facebook</a></p>
+
+
+
+    </div>
+    <br>
+
+    <button type="button">
+            <a href="#contact_me"><strong>Contact me</strong></a>
+        </button>
+
+    <h3>PROFILE</h3>
+    <hr>
+    <p>
+        I am 20 years old and I am a student from Skopje, North Macedonia. I am currently in my second year of undergraduate studies in <u>Software Engineering and Information Systems at the Faculty of Information Science and Computer Engineering</u>        . During my studies I have acquired the basics of frontend and backend development. I'm passionate about programming and design. I am mainly focused on expanding my knowledge in webdesign.
+    </p>
+    <h3>EDUCATION</h3>
+    <hr>
+
+    <table border="1" width="700">
+
+
+        <tr align="center">
+            <td width="70">2020-now </td>
+            <td><i> <q> Ss. Cyril and Methodius- University</q></i> </td>
+            <td> <i>Faculty of Information Science and Computer Engineering</i> </td>
+            <td rowspan="3"> <i>Skopje</i></td>
+        </tr>
+        <tr align="center">
+            <td>2016-2020</td>
+            <td> <i> <q>Zef Ljush Marku- Gymnasium</q> </i> </td>
+            <td> <i>Natural Sciences and Mathematics</i> </td>
+        </tr>
+        <tr align="center">
+            <td>2007-2016</td>
+            <td colspan="2"><i> <q>Rajko Zhinzifov- Primary school</q> </i> </td>
+
+        </tr>
+
+    </table>
+
+    <h3>SKILLS</h3>
+    <hr>
+
+    <ul>
+        <li>
+            <label for="html">Html</label>
+            <progress id="html" max="100" value="75">75%</progress>
+        </li>
+        <br>
+        <li>
+            <label for="css">Css</label>
+            <progress id="css" max="100" value="70">70%</progress>
+        </li>
+        <br>
+        <li>
+            <label for="js">JavaScript</label>
+            <progress id="js" max="100" value="25">25%</progress>
+        </li>
+        <br>
+        <li>
+            <label for="JQuery">JQuery</label>
+            <progress id="JQuery" max="100" value="25">25%</progress>
+        </li>
+        <br>
+        <li>
+            <label for="oop">Oop</label>
+            <progress id="oop" max="100" value="70">70%</progress>
+        </li>
+
+        <br>
+        <li>
+            <label for="calculus">Caculus</label>
+            <progress id="calculus" max="100" value="80">80%</progress>
+        </li>
+        <br>
+        <li>
+            <label for="dm">Discrete mathematics</label>
+            <progress id="dm" max="100" value="80">80%</progress>
+        </li>
+
+
+    </ul>
+
+
+
+    <h3>LANGUAGES</h3>
+    <hr>
+    <ol>
+        <li> <u> <b> Albanian</b></u></li>
+        <br>
+        <li><u> <b> Macedonian</b></u> </li>
+        <br>
+        <li><u><b>English</b> </u> </li>
+        <br>
+        <li> <u> <b>Turkish</b> </u></li>
+        <br>
+    </ol>
+
+
+    <fieldset id="contact_me">
+        <legend><b>CONTACT ME</b> </legend>
+        <br>
+        <form action="#">
+            <label for="name">Your Name: </label>
+            <input type="text" id="name" required="" placeholder="Your Name">
+            <br>
+            <br>
+            <label for="email">Your Email: </label>
+
+            <input type="email" id="email" required="" placeholder="Your Email">
+            <br>
+            <br>
+
+            <label for="gender">Your gender: </label>
+            <input type="radio" name="choose" id="gender">Female
+            <input type="radio" name="choose" id="gender">Male
+            <br>
+            <br>
+
+            <select>
+
+                <option value="---">Select City</option>
+                <option value="Albania">Albania</option>
+                <option value="Kosovo">Kosovo</option>
+                <option value="Macedonia">Macedonia</option>
+                <option value="Germany">Germany</option>
+            </select>
+
+            <br><br>
+
+            <textarea cols="30" rows="6" placeholder="Your message" required=""></textarea>
+
+
+            <br>
+            <br>
+
+            <div>
+                <button type="submit">Send</button>
+                <button type="reset">Clear</button>
+            </div>
+
+
+        </form>
+
+    </fieldset>
+
+
+
+
+
+
+</body>
+
+</html>
