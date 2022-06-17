@@ -1,0 +1,23 @@
+    h1 {
+        text-align: center;
+    }
+    
+    #photo {
+        float: left;
+    }
+    
+    #content {
+        width: 348px;
+        display: inline-block;
+        height: 300px;
+    }
+    
+    body {
+        border: 1px solid black;
+        width: 865px;
+        margin: 0 auto;
+    }
+    
+    .languages {
+        font-weight: bold;
+    }

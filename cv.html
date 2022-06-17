@@ -6,23 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <style>
-        /*
-        h1 {
-            text-align: center;
-        }
-        
-        #photo {
-            float: left;
-        }
-        
-        #container {
-            width: 348px;
-            display: inline-block;
-            height: 300px;
-        }
-        */
-    </style>
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
@@ -44,7 +28,7 @@
 
 
 
-    <div id="container">
+    <div id="content">
         <p><img src="assets/images/name_surname.png" alt="name_surname" width="24" title="Name_Surname"> <b>Name:</b> Anesa Hajdari</p>
 
         <p><img src="assets/images/date_of_birth.png" alt="date" width="24" title="Date_of_Birth"> <b>Date of Birth:</b> 14/07/2001</p>
@@ -67,10 +51,15 @@
 
     </div>
     <br>
+    <br>
 
+    <audio src="./assets/audio/WhatsApp Ptt 2022-06-17 at 10.18.55 PM.ogg" controls width="400"></audio>
+    <br><br>
     <button type="button">
             <a href="#contact_me"><strong>Contact me</strong></a>
         </button>
+
+
 
     <h3>PROFILE</h3>
     <hr>
@@ -80,11 +69,11 @@
     <h3>EDUCATION</h3>
     <hr>
 
-    <table border="1" width="700">
+    <table border="1" width="700" align="center">
 
 
         <tr align="center">
-            <td width="70">2020-now </td>
+            <td width="70">2020-Today </td>
             <td><i> <q> Ss. Cyril and Methodius- University</q></i> </td>
             <td> <i>Faculty of Information Science and Computer Engineering</i> </td>
             <td rowspan="3"> <i>Skopje</i></td>
@@ -102,114 +91,127 @@
 
     </table>
 
-    <h3>SKILLS</h3>
+    <h3>SKILLS &amp; LANGUAGES</h3>
     <hr>
+    <table width="90%">
+        <tr valign="top">
+            <td>
+                <div class="languages">
+                    <ul>
+                        <li><label for="html">HTML</label>
+                            <progress id="html" max="100" value="75">75%</progress>
+                        </li>
+                        <li> <label for="css">CSS</label>
+                            <progress id="css" max="100" value="70">70%</progress></li>
+                    </ul>
 
-    <ul>
-        <li>
-            <label for="html">Html</label>
-            <progress id="html" max="100" value="75">75%</progress>
-        </li>
-        <br>
-        <li>
-            <label for="css">Css</label>
-            <progress id="css" max="100" value="70">70%</progress>
-        </li>
-        <br>
-        <li>
-            <label for="js">JavaScript</label>
-            <progress id="js" max="100" value="25">25%</progress>
-        </li>
-        <br>
-        <li>
-            <label for="JQuery">JQuery</label>
-            <progress id="JQuery" max="100" value="25">25%</progress>
-        </li>
-        <br>
-        <li>
-            <label for="oop">Oop</label>
-            <progress id="oop" max="100" value="70">70%</progress>
-        </li>
-
-        <br>
-        <li>
-            <label for="calculus">Caculus</label>
-            <progress id="calculus" max="100" value="80">80%</progress>
-        </li>
-        <br>
-        <li>
-            <label for="dm">Discrete mathematics</label>
-            <progress id="dm" max="100" value="80">80%</progress>
-        </li>
+                    <ul>
+                        <li><label for="dm">DISCRETE MATHEMATICS</label>
+                            <progress id="dm" max="100" value="75">75%</progress></li>
+                        <li><label for="calculus">CALCULUS</label>
+                            <progress id="calculus" max="100" value="80">80%</progress></li>
+                    </ul>
 
 
-    </ul>
+                    <ul>
+                        <li>
+                            <label for="js">JAVASCRIPT</label>
+                            <progress id="js" max="100" value="25">25%</progress>
+                        </li>
+                        <li> <label for="oop">OOP</label>
+                            <progress id="oop" max="100" value="70">70%</progress></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="jquery">JQUERY</label>
+                            <progress id="jquery" max="100" value="25">25%</progress>
+                        </li>
+                    </ul>
+
+                </div>
 
 
 
-    <h3>LANGUAGES</h3>
-    <hr>
-    <ol>
-        <li> <u> <b> Albanian</b></u></li>
-        <br>
-        <li><u> <b> Macedonian</b></u> </li>
-        <br>
-        <li><u><b>English</b> </u> </li>
-        <br>
-        <li> <u> <b>Turkish</b> </u></li>
-        <br>
-    </ol>
+            </td>
+            <td>
+                <div class="languages">
 
 
-    <fieldset id="contact_me">
-        <legend><b>CONTACT ME</b> </legend>
-        <br>
-        <form action="#">
-            <label for="name">Your Name: </label>
-            <input type="text" id="name" required="" placeholder="Your Name">
-            <br>
-            <br>
-            <label for="email">Your Email: </label>
-
-            <input type="email" id="email" required="" placeholder="Your Email">
-            <br>
-            <br>
-
-            <label for="gender">Your gender: </label>
-            <input type="radio" name="choose" id="gender">Female
-            <input type="radio" name="choose" id="gender">Male
-            <br>
-            <br>
-
-            <select>
-
-                <option value="---">Select City</option>
-                <option value="Albania">Albania</option>
-                <option value="Kosovo">Kosovo</option>
-                <option value="Macedonia">Macedonia</option>
-                <option value="Germany">Germany</option>
-            </select>
-
-            <br><br>
-
-            <textarea cols="30" rows="6" placeholder="Your message" required=""></textarea>
+                    <p><img src="./assets/images/alb.png" alt="albanian_flag" width="50"> ALBANIAN </p>
+                    <p><img src="./assets/images/macedonian.png" alt="macedonian_flag" width="50"> MACEDONIAN</p>
+                    <p><img src="./assets/images/turkish.jfif" alt="turkish_flag" width="50"> TURKISH</p>
+                    <p><img src="./assets/images/UK.png" alt="UK_flag" width="50"> ENGLISH</p>
+                </div>
+            </td>
 
 
-            <br>
-            <br>
-
-            <div>
-                <button type="submit">Send</button>
-                <button type="reset">Clear</button>
-            </div>
-
-
-        </form>
-
-    </fieldset>
+        </tr>
 
 
 
+    </table>
+
+    <table>
+
+
+        <tr>
+            <td width="410">
+
+                <fieldset id="contact_me">
+                    <legend><b>CONTACT ME</b> </legend>
+                    <br>
+                    <form action="#">
+                        <label for="name">Your Name: </label>
+                        <input type="text" id="name" required="" placeholder="Your Name">
+                        <br>
+                        <br>
+                        <label for="email">Your Email: </label>
+
+                        <input type="email" id="email" required="" placeholder="Your Email">
+                        <br>
+                        <br>
+
+                        <label for="gender">Your gender: </label>
+                        <input type="radio" name="choose">Female
+                        <input type="radio" name="choose" id="gender">Male
+                        <br>
+                        <br>
+
+                        <select>
+            
+                            <option value="---">Select City</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Kosovo">Kosovo</option>
+                            <option value="Macedonia">Macedonia</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+
+                        <br><br>
+
+                        <textarea cols="30" rows="6" placeholder="Your message" required=""></textarea>
+
+
+                        <br>
+                        <br>
+
+                        <div>
+                            <button type="submit">Send</button>
+                            <button type="reset">Clear</button>
+                        </div>
+
+
+
+                    </form>
+
+
+                </fieldset>
+            </td>
+
+            <td>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1FwJRQ0CrLfmmpfAmaseX-XfgZXk&ehbc=2E312F" width="420" height="327"></iframe>
+            </td>
+        </tr>
+    </table>
 
 
 
